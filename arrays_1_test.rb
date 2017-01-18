@@ -17,18 +17,30 @@ class TestMinedMindsKata < MiniTest::Test
     def test_1_returns_1
         results = minedminds()
         assert_equal(1,results[0])
-# 0 is first of array, checking to see if first of array equals 1
+# 0 is first of array, checking to see if first of array equals 1 (expected)
     end
 
     def test_1_returns_2
         results = minedminds()
         assert_equal(2,results[1])
-# 1 is second of array, checking to see if first of array equals 2
+# 1 is second of array, checking to see if first of array equals 2 (expected)
     end
 
     def test_function_returs_mined_for_3
         results = minedminds()
         assert_equal("Mined",results[2])
+    end
+
+    def test_1_returns_4
+        results = minedminds()
+        assert_equal(4,results[3])
+# 3 is fourth of array, checking to see if fourth of array equals 4 (expected)
+    end
+
+    def test_1_returns_5
+        results = minedminds()
+        assert_equal("Minds",results[4])
+# 4 is fifth of array, checking to see if fifth of array equals "Minds" (expected)
     end
 end
 

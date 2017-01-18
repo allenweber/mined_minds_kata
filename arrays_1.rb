@@ -8,7 +8,11 @@ def minedminds()
         if item % 3 == 0
         	range.push("Mined")
         else
+        	if item % 5 ==-0
+        		range.push("Minds")
+        	else
             range.push(num)
+            end
         end
         num += 1
 # adds 1 each time around ^
