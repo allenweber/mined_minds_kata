@@ -42,6 +42,11 @@ class TestMinedMindsKata < MiniTest::Test
         assert_equal("Minds",results[4])
 # 4 is fifth of array, checking to see if fifth of array equals "Minds" (expected)
     end
+
+    def test_1_returns_5_3
+        results = minedminds()
+        assert_equal("Mined Minds",results[14])
+    end
 end
 
 
