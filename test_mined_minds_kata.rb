@@ -27,5 +27,13 @@ class TestMinedMindsKata < MiniTest::Test
     	assert_equal("mined_minds",minedmindskata(6))
     end
 
+    def test_function_returns_69
+    	assert_equal("cheese",minedmindskata(69))
+    end
+
+    def test_function_returns_85
+    	assert_equal("mind",minedmindskata(85))
+    end
+
 end
 
